@@ -1,0 +1,67 @@
+@font-face {
+    font-family: 'SF_HambakSnow';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2106@1.1/SF_HambakSnow.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none; 
+    color: inherit; 
+}
+
+body{
+    color: #222;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.header ul {
+    display: flex;
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 300px;
+    justify-content: space-between;
+    padding: 20px 50px;
+}
+
+.header li {
+    padding: 10px 40px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.logo{
+    font-family: 'SF_HambakSnow';
+    color: #4D4D4D;
+    font-size: 30px;
+    padding: 20px;
+    padding-left: 40px;
+    border-bottom: 1px solid #ddd;
+}
+
+.main {
+    width: 1600px;
+    margin: 0 auto;
+}
+
+.main .list {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.main .list li img {
+    width: 50%;
+}
