@@ -4,12 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/work.css">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+    <script src="../script/jquery-1.12.4.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <title>마녀공장 웹사이트 클론코딩</title>                                                                                                                                                                                 
 </head>
 <body>
     <div class="header">
         <div class="logo">
-            <a href="#x">윤채영</a>
+            <a href="./home.html">윤채영</a>
         </div>
         <ul>
             <li><a href="./home.html">홈</a></li>
@@ -24,7 +28,7 @@
                 <h2>마녀공장 웹사이트 클론코딩</h2>
                 <ul>
                     <li><a href="#x">웹사이트</a></li>
-                    <li><a href="#x">GitHub</a></li>
+                    <li><a href="https://github.com/chaeng23599/manyo">GitHub</a></li>
                     <li><a href="https://www.figma.com/file/2Dz9XIxZUFvoKY9IqyNJij/%EB%A7%88%EB%85%80%EA%B3%B5%EC%9E%A5?type=design&node-id=0%3A1&mode=design&t=mOQ5nbTVHSZdYtp4-1">Figma</a></li>
                 </ul>
             </div>
@@ -32,6 +36,8 @@
             <div class="inner">
                 <div class="image">
                     <img src="../img/inner_1.jpg" alt="">
+                    <img src="../img/inner_2-1.jpg" alt="">
+                    <img src="../img/inner_2-2.jpg" alt="">
                 </div>
                 <h4>기존 웹사이트를 클론코딩한 결과물입니다.</h4>
                 <div class="text">
@@ -44,5 +50,15 @@
             </div>
         </div>
     </section>
+    <script>
+            $(document).ready(function(){
+                $('.inner .image').slick({
+                    dots: true,
+                    slidesToScroll: 1,
+                    autoply: true,
+                    autoplaySpeed:2000,
+                });
+            })
+    </script>
 </body>
 </html>

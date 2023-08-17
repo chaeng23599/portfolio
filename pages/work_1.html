@@ -4,12 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/work.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <title>작업물</title>                                                                                                                                                                                 
 </head>
 <body>
     <div class="header">
         <div class="logo">
-            <a href="#x">윤채영</a>
+            <a href="./home.html">윤채영</a>
         </div>
         <ul>
             <li><a href="./home.html">홈</a></li>
@@ -24,18 +26,19 @@
                 <h2>문화포털 웹사이트 클론코딩</h2>
                 <ul>
                     <li><a href="#x">웹사이트</a></li>
-                    <li><a href="#x">GitHub</a></li>
-                    <li><a href="#x">Figma</a></li>
+                    <li><a href="https://github.com/chaeng23599/munhua">GitHub</a></li>
+                    <li><a href="https://www.figma.com/file/nbUnF4Dj8PtctMh5HtpwIy/%EB%AC%B8%ED%99%94%ED%8F%AC%ED%84%B8?type=design&node-id=0%3A1&mode=design&t=5SubY5aHlAK4E4Be-1">Figma</a></li>
                 </ul>
             </div>
             
             <div class="inner">
                 <div class="image">
                     <img src="../img/inner_2.jpg" alt="">
+
                 </div>
                 <h4>기존 웹사이트를 클론코딩한 결과물입니다.</h4>
                 <div class="text">
-                    화장품 브랜드 '마녀공장'의 홈, 제품 상세페이지, 이벤트 소개페이지,브랜드 소개페이지를 제작하였습니다.
+                    '문화포털'의 홈, 문화 TV, 이벤트 소개페이지를 제작하였습니다.
                     <br><b>Figma,Visual studio code</b>를 사용하였고, <b>JQuery</b>를 이용해 슬라이드, 스크롤버튼, 더보기 버튼, 롤링 배너를 구현하였습니다.
                     <br><br>
                     수업에서 배운 것을 토대로 직접 페이지를 구현하며 평소 어려워했던 JQuery를 한번 더 공부하게되었습니다. <br>
@@ -44,5 +47,15 @@
             </div>
         </div>
     </section>
+    <script>
+        $('.inner .image').slick({
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 2000,    
+
+        });
+    </script>
 </body>
+
 </html>

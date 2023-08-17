@@ -1,9 +1,4 @@
-@font-face {
-    font-family: 'SF_HambakSnow';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2106@1.1/SF_HambakSnow.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
+@import url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2106@1.1/SF_HambakSnow.woff');
 
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
 
@@ -47,20 +42,21 @@ body{
 }
 
 .main {
-    padding-left: 740px;
+    padding-left: 680px;
 }
+
 
 .main a {
     display: inline-block;
     position: relative;
-    margin-top: 300px;
+    margin-top: 240px;
     padding: 60px 90px;
     padding-bottom: 30px;
     color: white;
   }
 
 .main a p {
-    padding: 90px 70px;
+    padding: 160px 120px;
 }
 
 .main a p:nth-child(1){
