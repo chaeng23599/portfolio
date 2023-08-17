@@ -52,34 +52,59 @@ body{
     border-bottom: 1px solid #ddd;
 }
 
-section {
-    display: flex;
-    gap: 900px;
+
+.main {
+    width: 1300px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 200px;
+    position: relative;
 }
 
-.square {
-    width: 600px;
-    height: 700px;
-    background-color: #eee;
+.main h3 {
+    padding: 90px;
+    font-size: 22px;
+}
+
+.main .btn {
     position: absolute;
-    top: 150px;
     left: 0;
+    top: 70px;
 }
 
-.right {
-    margin-top: 300px;
-}
-
-.right div {
+.main .top {
     display: flex;
-    padding: 10px 0;
+    justify-content: space-between;
+    padding-top: 200px;
 }
 
-.right .bir {
-    gap: 40px;
+.main ul {
+    display: flex;
+    width: 260px;
+    justify-content: space-between;
 }
 
-.right div img {
-    padding-right: 10px;
+.main ul li{
+    color: #7C7C7C;
 }
 
+.main .inner .image {
+    padding: 100px 0;
+    width: 1000px;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.main .inner .image img {
+    width: 100%;
+    border: 1px solid #D4d4d4;
+}
+
+.main .inner h4 {
+    padding-bottom: 40px;
+    font-size: 18px;
+}
+
+.main .inner .text {
+    line-height: 2.5;
+}
