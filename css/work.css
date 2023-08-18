@@ -73,13 +73,13 @@ body{
     padding-top: 200px;
 }
 
-.main ul {
+.main .top ul {
     display: flex;
     width: 260px;
     justify-content: space-between;
 }
 
-.main ul li{
+.main .top ul li{
     color: #7C7C7C;
 }
 
@@ -102,4 +102,9 @@ body{
 
 .main .inner .text {
     line-height: 2.5;
+}
+
+.slick-dots {
+    position: absolute;
+    top: 680px;
 }
