@@ -47,7 +47,6 @@ body{
     border-bottom: 1px solid #ddd;
 }
 
-
 .main {
     width: 1320px;
     margin: 0 auto;
@@ -60,12 +59,12 @@ body{
     font-size: 22px;
 }
 
-
 .main .list {
     padding: 40px;
     display: grid;
     grid-template-columns: repeat(2,1fr);
     gap: 145px;
+    animation: fadeInUp 0.4s;
 }
 
 .main .list li img {
@@ -76,7 +75,7 @@ body{
 @keyframes fadeInUp {
     0% {
         opacity: 0;
-        transform: translate3d(0,10%,0);
+        transform: translate3d(0,0,0);
     }
     to {
         opacity: 1;
